@@ -5,7 +5,7 @@ pushd ./homedir
 ./copy.sh
 popd
 pushd ./system-preferences
-./copy.sh
+# ./copy.sh
 popd
 cd ./homebrew
 ./install-homebrew.sh
