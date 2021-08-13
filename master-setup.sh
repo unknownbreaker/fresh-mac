@@ -4,9 +4,6 @@
 # pushd ./homedir
 # ./copy.sh
 # popd
-# pushd ./system-preferences
-# ./copy.sh
-# popd
 cd ./homebrew
 ./install-homebrew.sh
 cd ..
@@ -26,3 +23,7 @@ popd
 pushd ./python
 sudo ./setuppython.sh
 popd
+pushd ./system-preferences
+./copy.sh
+popd
+
