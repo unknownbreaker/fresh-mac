@@ -1,9 +1,9 @@
 #!/bin/bash
 
-mkdir -p ~/bin
-pushd ./homedir
-./copy.sh
-popd
+mkdir ~/bin
+# pushd ./homedir
+# ./copy.sh
+# popd
 # pushd ./system-preferences
 # ./copy.sh
 # popd

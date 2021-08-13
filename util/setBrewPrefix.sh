@@ -9,8 +9,7 @@ then
     brewPrefix="/opt/homebrew"
     brewExecutablePrefix=`echo ${brewPrefix}`
 else
-    brewPrefix="/usr/local/opt"
-    brewExecutablePrefix=`echo ${brewPrefix}`/..
+    brewPrefix="/usr/local/homebrew"
 fi
 
 export brewPrefix
