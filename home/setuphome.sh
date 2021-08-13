@@ -3,13 +3,13 @@
 cd ~/Documents
 echo "In $(pwd)"
 
-if [-e Repos]
+if [! -e Repos]
   mkdir Repos
 fi
 
 cd Repos
 
-if [-e Configs]
+if [! -e Configs]
   git clone https://github.com/unknownbreaker/Configs.git
 fi
 
@@ -19,7 +19,7 @@ if [ -f .zshrc ]
   mv .zshrc .zshrc_old
   ln -s ~/Documents/Repos/Configs/Zsh/.zshrc .zshrc
 fi
-if [-e .zshrc]
+if [! -e .zshrc]
   ln -s ~/Documents/Repos/Configs/Zsh/.zshrc .zshrc
 fi
 
@@ -27,19 +27,19 @@ if [ -f .oh-my-zsh ]
   mv .oh-my-zsh .oh-my-zsh_old
   ln -s ~/Documents/Repos/Configs/Zsh/.oh-my-zsh .oh-my-zsh
 fi
-if [ -e .oh-my-zsh ]
+if [ ! -e .oh-my-zsh ]
   ln -s ~/Documents/Repos/Configs/Zsh/.oh-my-zsh .oh-my-zsh
 fi
 
-if [ -e .tmux ]
+if [ ! -e .tmux ]
   ln -s ~/Documents/Repos/Configs/Tmux/.tmux .tmux
 fi
-if [ -e .tmux.conf ]
+if [ ! -e .tmux.conf ]
   ln -s ~/Documents/Repos/Configs/Tmux/.tmux.conf .tmux.conf
 fi
 
 cd .config
-if [ -e karabiner ]
+if [ ! -e karabiner ]
   ln -s ~/Documents/Repos/Configs/Karabiner/ karabiner
 fi
   
