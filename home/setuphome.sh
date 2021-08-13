@@ -1,6 +1,7 @@
 #!/bin/bash
 
 cd ~/Documents
+echo "In $(pwd)"
 
 if [-e Repos]
   mkdir Repos
