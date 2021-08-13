@@ -8,7 +8,7 @@ if [ -e /opt/homebrew ]
 then
     brewPrefix="/opt/homebrew"
 else
-    brewPrefix="/usr/local/opt"
+    brewPrefix="/usr/local/homebrew"
 fi
 
 export brewPrefix
