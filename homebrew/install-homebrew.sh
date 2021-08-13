@@ -4,11 +4,12 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-source ../util/setBrewPrefix.sh
+# source ../util/setBrewPrefix.sh
 
-"${brewPrefix}/bin/brew" bundle install
+# "${brewPrefix}/bin/brew" bundle install
+brew bundle install
 
-sudo chmod -R 755 "${brewPrefix}/share" # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
+# sudo chmod -R 755 "${brewPrefix}/" # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
 
 # Package-specific
 sudo ln -sfn "${brewPrefix}/openjdk/libexec/openjdk.jdk" /Library/Java/JavaVirtualMachines/openjdk.jdk
