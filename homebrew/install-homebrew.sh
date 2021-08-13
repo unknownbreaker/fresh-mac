@@ -12,5 +12,4 @@ brew bundle install
 # sudo chmod -R 755 "${brewPrefix}/" # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
 
 # Package-specific
-sudo ln -sfn "${brewPrefix}/openjdk/libexec/openjdk.jdk" /Library/Java/JavaVirtualMachines/openjdk.jdk
-
+# sudo ln -sfn "${brewPrefix}/openjdk/libexec/openjdk.jdk" /Library/Java/JavaVirtualMachines/openjdk.jdk
