@@ -4,16 +4,25 @@ mkdir ~/bin
 pushd ./homedir
 ./copy.sh
 popd
-pushd ./system-preferences
+# pushd ./system-preferences
 # ./copy.sh
-popd
+# popd
 cd ./homebrew
 ./install-homebrew.sh
 cd ..
 ./install-global-npm-packages.sh
-pushd vscode
-./install-vscode-extensions.sh
+# pushd vscode
+# ./install-vscode-extensions.sh
+# popd
+# pushd ./homedir
+# ./setup-global-gitignore.sh
+# popd
+pushd ./zsh
+./setupzsh.sh
 popd
-pushd ./homedir
-./setup-global-gitignore.sh
+pushd ./node
+./setupnode.sh
+popd
+pushd ./python
+./setuppython.sh
 popd
