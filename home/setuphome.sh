@@ -3,13 +3,13 @@
 cd ~/Documents
 echo "In $(pwd)"
 
-if [! -e Repos]; then
+if [ ! -e Repos ]; then
   mkdir Repos
 fi
 
 cd Repos
 
-if [! -e Configs]; then
+if [ ! -e Configs ]; then
   git clone https://github.com/unknownbreaker/Configs.git
 fi
 
@@ -19,7 +19,7 @@ if [ -f .zshrc ]; then
   mv .zshrc .zshrc_old
   ln -s ~/Documents/Repos/Configs/Zsh/.zshrc .zshrc
 fi
-if [! -e .zshrc]; then
+if [ ! -e .zshrc ]; then
   ln -s ~/Documents/Repos/Configs/Zsh/.zshrc .zshrc
 fi
 
