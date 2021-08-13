@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SYSPREF_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/system-preferences/"
+SYSPREF_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )/system-preferences/plist/"
 
 cp ~/Library/Preferences/com.apple.systempreferences.plist $SYSPREF_DIR
 cp ~/Library/Preferences/com.apple.dock.plist $SYSPREF_DIR
