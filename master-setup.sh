@@ -18,11 +18,11 @@ cd ..
 # ./setup-global-gitignore.sh
 # popd
 pushd ./zsh
-./setupzsh.sh
+sudo ./setupzsh.sh
 popd
 pushd ./node
-./setupnode.sh
+sudo ./setupnode.sh
 popd
 pushd ./python
-./setuppython.sh
+sudo ./setuppython.sh
 popd
