@@ -1,6 +1,6 @@
 #!/bin/bash
 
-mkdir ~/bin
+# mkdir ~/bin
 # pushd ./homedir
 # ./copy.sh
 # popd

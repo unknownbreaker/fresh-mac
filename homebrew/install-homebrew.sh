@@ -4,14 +4,12 @@
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 
-source ../util/setBrewPrefix.sh
+# source ../util/setBrewPrefix.sh
 
-echo fresh-mac: Setting the brew prefix used by fresh-mac to ${brewPrefix}
-echo fresh-mac: Setting the brew executable prefix used by fresh-mac to ${brewExecutablePrefix}
+# "${brewPrefix}/bin/brew" bundle install
+brew bundle install
 
-"${brewExecutablePrefix}/bin/brew" bundle install
-
-sudo chmod -R 755 /usr/local/share/ # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
+# sudo chmod -R 755 "${brewPrefix}/" # https://stackoverflow.com/questions/13762280/zsh-compinit-insecure-directories
 
 # Package-specific
 sudo ln -sfn "${brewPrefix}/openjdk/libexec/openjdk.jdk" /Library/Java/JavaVirtualMachines/openjdk.jdk
