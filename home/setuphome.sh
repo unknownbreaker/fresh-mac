@@ -10,7 +10,7 @@ fi
 cd Repos
 
 if [ ! -e Configs ]; then
-  git clone https://github.com/unknownbreaker/Configs.git
+  git clone git@github.com:unknownbreaker/Configs.git
 fi
 
 cd ~
