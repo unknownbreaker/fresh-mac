@@ -11,6 +11,7 @@ brew "bat"
 brew "bower"
 brew "cask"
 brew "deno"
+brew "docker"
 brew "emacs", restart_service: true
 brew "exa"
 brew "fd"
