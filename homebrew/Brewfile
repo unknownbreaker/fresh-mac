@@ -96,6 +96,10 @@ cask "zoom"
 # macOS App Store Apps
 # Note that until Brewfile supports `mas purchase`, these must have been installed
 # at least once before on the currently signed-in-on-the-macOS Apple ID.
+
+# To find the id: mas search [app name]
+# To find the id of an installed app: mas list
+
 mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
 mas "Drafts", id: 1435957248
 mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
