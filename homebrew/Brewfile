@@ -25,6 +25,7 @@ brew "gotgenes/gotgenes/getignore" # gitignore patterns
 brew "grunt-cli"
 brew "gulp"
 brew "jq"
+brew "kubectl"
 brew "kubernetes-cli"
 brew "lynx"
 brew "mas"
