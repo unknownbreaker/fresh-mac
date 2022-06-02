@@ -3,6 +3,7 @@
 # Deprecated /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 if [ -e /usr/local/bin/brew ]
+then
   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
   sudo chown -R `whoami`:admin /usr/local/bin
   sudo chown -R `whoami`:admin /usr/local/share

@@ -6,10 +6,10 @@
 
 if [ -e /opt/homebrew ]
 then
-    brewPrefix="/opt/homebrew"
-    brewExecutablePrefix=`echo ${brewPrefix}`
+  brewPrefix="/opt/homebrew"
+  brewExecutablePrefix=`echo ${brewPrefix}`
 else
-    brewPrefix="/usr/local/homebrew"
+  brewPrefix="/usr/local/homebrew"
 fi
 
 export brewPrefix
