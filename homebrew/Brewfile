@@ -23,6 +23,7 @@ brew "gcc"
 brew "gh"
 brew "git"
 brew "git-lfs"
+brew "go"
 brew "gotgenes/gotgenes/getignore" # gitignore patterns
 brew "grunt-cli"
 brew "gulp"
