@@ -4,6 +4,7 @@ if [ -e /usr/local/bin/npm ]
 then
   npm i -g vscode-langservers-extracted && \
   npm i -g bash-language-server && \
+  npm i -g emmet-ls && \
   npm i -g graphql-language-service-cli && \
   npm i -g sql-language-server && \
   npm i -g typescript typescript-language-server && \
