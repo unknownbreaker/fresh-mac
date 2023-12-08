@@ -51,6 +51,7 @@ brew "mariadb"
 brew "mas"
 brew "minikube"
 brew "mkcert"
+brew "MonitorControl"
 brew "mycli"
 brew "neovim"
 brew "nginx"
@@ -93,8 +94,10 @@ cask "anki"
 cask "bartender"
 cask "bettertouchtool"
 cask "charles"
+cask "cheatsheet"
 cask "discord"
 cask "docker"
+cask "dropzone"
 cask "firefox"
 cask "figma"
 cask "font-hack-nerd-font"
@@ -135,9 +138,10 @@ cask "zoom"
 # `mas search [app name]` # Searches for app on App Store
 # `mas list` # Lists all installed apps originating from App Store
 
-mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
+# mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
 mas "Drafts", id: 1435957248
-mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
+mas "Dropzone", id: 1485052491
+# mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
 mas "Mp3tag", id: 1532597159
 mas "Moom", id: 419330170
 mas "Owly", id: 882812218
