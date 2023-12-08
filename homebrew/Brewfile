@@ -63,6 +63,7 @@ brew "nvm"
 brew "openjdk"
 brew "pandoc"
 brew "patchutils"
+brew "perl"
 brew "pgcli"
 brew "php"
 brew "pipx"
@@ -75,6 +76,7 @@ brew "rbenv"
 brew "ruby"
 brew "redis"
 brew "ripgrep"
+brew "rust"
 brew "rustup"
 brew "terminal-notifier"
 brew "tmux"
@@ -136,7 +138,7 @@ cask "zoom"
 mas "com.alice.mac.GetPlainText", id: 508368068 # Transform copied text to plain format.
 mas "Drafts", id: 1435957248
 mas "Flycut", id: 442160987                     # Clipboard manager for macOS - super useful.
-max "Mp3tag", id: 1532597159
+mas "Mp3tag", id: 1532597159
 mas "Moom", id: 419330170
 mas "Owly", id: 882812218
 mas "QuickShade", id: 931571202
